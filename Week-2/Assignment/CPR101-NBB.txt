@@ -1,0 +1,25 @@
+Pseudocode for the robot to make your favorite beverage in the morning...
+
+1- Start Robot 
+
+2-Choose what kind of beverage you would like to drink
+a: Cold Beverage (Coke, Water, Canada Dry, Ice Tea or Ice Coffe) 
+aa: Specify; extra cold, Regular cold, or Without ice 
+b: Hot Beverage (Tea, Coffe)
+ba: Specify; Extra hot or moderate
+bb- Add; Milk, Cream, Vanilla, or Sugar
+
+3- Select Service 
+a: Eat-In 
+b: Takeaway
+
+4-Select Payment Option
+a: Credit or Debit Card
+b: Cash
+c: Coin 
+aa: Please enter your password!
+bb: Please don't forget your change!
+
+5- Pick up your order!
+
+6- Exit

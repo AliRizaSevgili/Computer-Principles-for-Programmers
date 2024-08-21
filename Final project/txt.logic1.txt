@@ -1,0 +1,38 @@
+1.Start                                                                                 Variables:
+                                                                                           totalareaPaintng;BaseCoatsCount;
+2.Ask client for the totalareaPainting => totalareaPainting*                               FinishingCoatsCount;BaseCoatsTotal;
+                                                                                           FinishingCoatsTotal;
+3.Ask the client - Do you want Base paint?                                                  
+ if is YES:
+  
+     -ask the client how many coast => BaseCoatsCount*
+
+4.Ask client - Do you want Finishing Paint?
+    if is YES:
+
+     - if BaseCoatsCount = 2;
+            - FinishingCoatsCount = 1 (need);
+
+     - if BaseCoatsCount = 1;
+            - FinishingCoatsCount = 2 (need);
+
+     - if BaseCoatsCount = 0;
+            - FinishingCoatsCount = 3 (need);
+
+5. Output total the number of coats for BasePaintingTotal:
+ 
+    => BaseCoatsTotal = BaseCoatsCount*(totalareaPainting/11)
+
+6. Output total the number of coats for FinishingPaintingTotal:
+
+      - if BaseCoatsCount = 2; => FinishingCoatsTotal = totalareaPainting/16;
+
+      - if BaseCoatsCount = 1; => FinishingCoatsTotal = 2*(totalareaPainting/16);
+      
+      - if BaseCoatsCount = 0; => FinishingCoatsTotal = 3*(totalareaPainting/16);
+
+7.END
+
+
+
+
